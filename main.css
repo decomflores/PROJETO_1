@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header h1 {
+    font-weight: normal;
+}
+
+header,
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 6px 0 6px;
+}
+
+header nav li a:hover {
+    color: bisque;
+    transform: translateY(4px);
+    transition:all 0.2s;
+}
+
+header .container,
+section .container {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #182c61;
+}
+
+section h2 {
+
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section #foto-loja {
+    margin-right: 32px;
+}
+
+section .brands-list img {
+    margin: auto 6px;
+    align-items: center;
+}
